@@ -4,6 +4,7 @@ Before running this script, ensure you have Python installed on your system. Thi
 torch
 matplotlib
 snntorch
+
 **You can install these dependencies using pip:**
 pip install torch matplotlib snntorch
 
@@ -18,6 +19,7 @@ Navigate to the directory containing the script.
 python snntorch_anntosnn.py
 
 **Understanding the Code**
+
 **The script consists of several key parts:**
 SimpleANN: A class that defines a simple ANN with one fully connected layer and ReLU activation.
 SimpleSNN: A class that defines a corresponding SNN with one fully connected layer followed by a leaky integrate-and-fire (LIF) neuron model.
